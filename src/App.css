@@ -1,0 +1,131 @@
+.heading {
+  color: rgba(112, 9, 9, 0.767);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gray;
+  color: white;
+}
+
+.nav .home {
+  background-color: rgba(112, 9, 9, 0.767);
+  padding-right: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+section {
+  height: 190vh;
+  width: auto;
+}
+
+.image-section {
+  height: 80vh;
+  margin: 20px 0px;
+  width: auto;
+  background-color: lightgray;
+}
+
+.image-section img {
+  height: 80vh;
+  width: -webkit-fill-available;
+  padding: 10px;
+}
+
+.contact-info {
+  height: 40vh;
+  background-color: #a10559;
+  width: auto;
+  color: white;
+}
+
+.contact-info h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.contact-info p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button-container button {
+  padding: 10px;
+  margin: 10px 20px;
+  background-color: #a10559;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.address-info {
+  height: 65vh;
+  width: auto;
+  background-color: #EFEFEF;
+  padding: 20px 10px;
+}
+
+.address-info .diffrent-color {
+  color: #a10559;
+  font-weight: 400;
+}
+
+.address-info hr {
+  margin-top: 30px;
+}
+
+.address-info h2 {
+  padding: 15px 0 5px;
+  text-align: center;
+  color: #a10559;
+}
+
+.address-para {
+  text-align: center;
+  font-weight: 500;
+}
